@@ -1,0 +1,18 @@
+version = 1
+
+exclude_patterns = [
+  "docs/**",
+  "examples/**"
+]
+
+[[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/MTRNord/matrix-terraform-provider"
+
+[[analyzers]]
+name = "secrets"
+
+[[analyzers]]
+name = "shell"
