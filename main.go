@@ -8,7 +8,7 @@ import (
 	"flag"
 	"log"
 
-	"github.com/MTRNord/matrix-terraform-provider/internal/provider"
+	"github.com/MTRNord/terraform-provider-matrix/internal/provider"
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
 )
 
@@ -38,8 +38,7 @@ func main() {
 	flag.Parse()
 
 	opts := providerserver.ServeOpts{
-		// TODO: Update this string with the published name of your provider.
-		Address: "registry.terraform.io/hashicorp/scaffolding",
+		Address: "registry.terraform.io/MTRNord/matrix",
 		Debug:   debug,
 	}
 

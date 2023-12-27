@@ -1,4 +1,4 @@
-module github.com/MTRNord/matrix-terraform-provider
+module github.com/MTRNord/terraform-provider-matrix
 
 go 1.20
 
@@ -8,7 +8,7 @@ require (
 	github.com/hashicorp/terraform-plugin-go v0.20.0
 	github.com/hashicorp/terraform-plugin-log v0.9.0
 	github.com/hashicorp/terraform-plugin-testing v1.6.0
-	github.com/hashicorp/terraform-provider-scaffolding-framework v0.0.0-20231219111208-befcee6255f2
+	github.com/matrix-org/gomatrix v0.0.0-20220926102614-ceba4d9f7530
 )
 
 require (
